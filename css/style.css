@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.blender {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 700px;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/off.png);
+}
+
+.blender.active {
+  background-image: url(../img/on.gif);
+}
+
+.on-off-button {
+  margin: 367px auto 0px;
+  width: 30px;
+  height: 50px;
+}
+
+#clock{
+  width: 200px;
+  font-size: 30px;
+  text-shadow:0px 0px 1px #fff;
+  color:#333;
+}
+#clock span {
+  color:#888;
+  text-shadow:0px 0px 1px #333;
+  font-size:30px;
+}
+#date {
+  width: 300px;
+  letter-spacing: 3px;
+  color:#333;
+}
